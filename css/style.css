@@ -272,8 +272,8 @@ button {
 /*-- navigation--*/
 
 .navigation.navbar {
-     float: right;
      padding-top: 12px;
+     float:right;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -307,11 +307,11 @@ button {
 
 .head_top {
      background: url(../images/banner.jpg);
-     background-size: 100% 100%;
      background-repeat: no-repeat;
      padding-top: 60px;
      background-position: center;
-
+     background-attachment: fixed;
+     min-height: 600px;
      background-size: cover;
 }
 
