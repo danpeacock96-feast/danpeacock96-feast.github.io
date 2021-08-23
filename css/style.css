@@ -273,7 +273,8 @@ button {
 
 .navigation.navbar {
      padding-top: 12px;
-     float:right;
+     float: right;
+
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -317,7 +318,6 @@ button {
 
 .header {
      width: 100%;
-
      border-radius: 50px;
      padding: 15px 30px;
 }
@@ -851,6 +851,7 @@ button {
      background-color: #fefefe;
      margin: auto;
      height: auto;
+     text-align: center;
      max-width: 40%;
    }
    .modal-content img{
