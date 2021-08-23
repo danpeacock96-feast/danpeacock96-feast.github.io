@@ -270,7 +270,9 @@ button {
 
 
 /*-- navigation--*/
-
+.centre-navbar{
+     margin: auto;
+}
 .navigation.navbar {
      padding-top: 12px;
      float: right;
