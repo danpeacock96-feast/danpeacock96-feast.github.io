@@ -837,7 +837,7 @@ button {
 .modal {
      display: none; /* Hidden by default */
      position: fixed; /* Stay in place */
-     z-index: 1; /* Sit on top */
+     z-index: 99999999; /* Sit on top */
      padding-top: 100px; /* Location of the box */
      left: 0;
      top: 0;
@@ -854,9 +854,10 @@ button {
      margin: auto;
      height: auto;
      text-align: center;
-     max-width: 40%;
+     max-width: 70%;
    }
-   .modal-content img{
+   .modal-content img, p{
+        background-color: #fefefe;
         margin-left: 10%;
         margin-right: 10%;
    }
