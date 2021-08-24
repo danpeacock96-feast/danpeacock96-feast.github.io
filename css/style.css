@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Charm:400,700&display=swap');
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -75,17 +75,17 @@ h6 {
 
 h1 {
      font-size: 24px;
-     font-family: 'Dancing Script', cursive;
+     font-family: 'Charm';
 }
 
 h2 {
      font-size: 50px;
-     font-family: 'Dancing Script', cursive;
+     font-family: 'Charm';
 }
 
 h3 {
      font-size: 30px;
-     font-family: 'Dancing Script', cursive;
+     font-family: 'Charm';
 }
 
 h4 {
@@ -282,7 +282,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 20px;
      color: #fff;
-     font-family: 'Dancing Script', cursive;
+     font-family: 'Charm';
      font-size: 30px;
      line-height: 20px;
 }
@@ -353,7 +353,7 @@ button {
 }
 
 .text-bg span {
-     font-family: 'Dancing Script', cursive;
+     font-family: 'Charm';
      color: #fff;
      font-size: 60px;
      line-height: 77px;
@@ -856,10 +856,18 @@ button {
      text-align: center;
      max-width: 70%;
    }
+   .modal-content a{
+     padding-left: 28px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     background-color:#fff;
+}
    .modal-content img, p{
         margin-left: 10%;
         margin-right: 10%;
    }
+
+
    
    /* The Close Button */
    .close {
